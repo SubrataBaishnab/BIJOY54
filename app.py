@@ -43,6 +43,8 @@ def generate_poem():
     """API endpoint to generate a poem"""
     try:
         data = request.get_json()
+        if not data:
+            return jsonify({'error': 'No data provided'}), 400
         
         # Validate input
         theme = data.get('theme', '').strip()

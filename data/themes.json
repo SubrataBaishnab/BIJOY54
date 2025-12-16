@@ -1,0 +1,76 @@
+{
+  "themes": {
+    "freedom": {
+      "bengali": ["স্বাধীনতা", "মুক্তি", "স্বাধীন", "মুক্ত", "স্বাধীনতার"],
+      "english": ["freedom", "liberty", "independence", "free", "liberation"],
+      "prompts": [
+        "Write a patriotic poem about freedom and independence",
+        "Compose a Victory Day poem celebrating freedom",
+        "Create an inspirational verse about liberation"
+      ]
+    },
+    "sacrifice": {
+      "bengali": ["ত্যাগ", "শহীদ", "আত্মত্যাগ", "বলিদান", "রক্ত"],
+      "english": ["sacrifice", "martyrs", "blood", "gave their lives", "selfless"],
+      "prompts": [
+        "Write a poem honoring the martyrs and their sacrifice",
+        "Compose verses about the sacrifice for independence",
+        "Create a tribute to those who gave their lives"
+      ]
+    },
+    "victory": {
+      "bengali": ["বিজয়", "জয়", "বিজয় দিবস", "ডিসেম্বর", "পতাকা"],
+      "english": ["victory", "triumph", "December", "won", "success"],
+      "prompts": [
+        "Write a Victory Day celebration poem",
+        "Compose verses about the triumph of December 16",
+        "Create a poem celebrating Bangladesh's victory"
+      ]
+    },
+    "heroes": {
+      "bengali": ["বীর", "মুক্তিযোদ্ধা", "যোদ্ধা", "সাহস", "বীরত্ব"],
+      "english": ["heroes", "freedom fighters", "warriors", "brave", "courage"],
+      "prompts": [
+        "Write a poem honoring freedom fighters",
+        "Compose verses praising the brave heroes",
+        "Create a tribute to the warriors of independence"
+      ]
+    },
+    "future": {
+      "bengali": ["ভবিষ্যৎ", "প্রজন্ম", "স্বপ্ন", "উন্নতি", "সোনার বাংলা"],
+      "english": ["future", "generation", "dreams", "progress", "tomorrow"],
+      "prompts": [
+        "Write a poem about future generations and their responsibility",
+        "Compose verses about building a better Bangladesh",
+        "Create an inspirational poem about tomorrow's dreams"
+      ]
+    },
+    "independence": {
+      "bengali": ["স্বাধীনতা", "মুক্তিযুদ্ধ", "একাত্তর", "১৯৭১", "বাংলাদেশ"],
+      "english": ["independence", "liberation war", "1971", "Bangladesh", "nation"],
+      "prompts": [
+        "Write a poem about the independence of Bangladesh",
+        "Compose verses about the liberation war",
+        "Create a patriotic poem celebrating the nation"
+      ]
+    },
+    "unity": {
+      "bengali": ["ঐক্য", "একতা", "সংহতি", "এক সাথে", "মিলন"],
+      "english": ["unity", "together", "solidarity", "united", "oneness"],
+      "prompts": [
+        "Write a poem about national unity",
+        "Compose verses about standing together",
+        "Create a poem celebrating unity and solidarity"
+      ]
+    },
+    "courage": {
+      "bengali": ["সাহস", "বীরত্ব", "দৃঢ়তা", "শক্তি", "হিম্মত"],
+      "english": ["courage", "bravery", "valor", "strength", "fortitude"],
+      "prompts": [
+        "Write a poem about courage in the face of adversity",
+        "Compose verses about the brave spirit",
+        "Create an inspirational poem about strength"
+      ]
+    }
+  }
+}

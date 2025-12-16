@@ -1,0 +1,70 @@
+{
+  "bengali_poems": [
+    {
+      "theme": "freedom",
+      "text": "স্বাধীনতা তুমি\nরবির রশ্মি, তুমি বিজয়ের গান\nতুমি আমাদের প্রাণের স্পন্দন\nতুমি মুক্তির আহ্বান\nতুমি বাংলার অহংকার"
+    },
+    {
+      "theme": "sacrifice",
+      "text": "শহীদের রক্তে রাঙা\nএই স্বাধীনতার পতাকা\nত্যাগের মহিমায় গাঁথা\nবিজয়ের এই কাহিনী\nযুগে যুগে থাকবে জাগা"
+    },
+    {
+      "theme": "victory",
+      "text": "ডিসেম্বরের সূর্য ওঠে\nবিজয়ের আলো নিয়ে\nলাল সবুজ পতাকা\nউড়ছে আকাশে স্বাধীনভাবে\nজয় বাংলা, জয় বাংলা"
+    },
+    {
+      "theme": "heroes",
+      "text": "মুক্তিযোদ্ধা আমার গর্ব\nতোমাদের সাহসে\nদেশ স্বাধীন হয়েছে\nতোমাদের ত্যাগ অমর\nচিরদিন বাঁচবে ইতিহাসে"
+    },
+    {
+      "theme": "future",
+      "text": "নতুন প্রজন্ম এগিয়ে যাও\nমুক্তিযুদ্ধের চেতনা বুকে\nস্বাধীনতার স্বপ্ন বাস্তবায়ন করো\nসোনার বাংলা গড়ে তোলো\nবীরদের আশা পূরণ করো"
+    },
+    {
+      "theme": "independence",
+      "text": "একাত্তরের গৌরব\nআজও উজ্জ্বল\nবাংলার আকাশে\nস্বাধীনতার সূর্য\nকখনো অস্তমিত হবে না"
+    }
+  ],
+  "english_poems": [
+    {
+      "theme": "freedom",
+      "text": "Freedom rings across the land so bright\nBorn from struggle, born from fight\nDecember's dawn brings victory's light\nBangladesh stands proud with all its might"
+    },
+    {
+      "theme": "sacrifice",
+      "text": "Through blood and tears the nation rose\nBrave martyrs faced the deadliest foes\nTheir sacrifice the world still knows\nIn our hearts their memory forever glows"
+    },
+    {
+      "theme": "victory",
+      "text": "Sixteen December seventy-one\nThe battle fought, the victory won\nA new dawn breaks, a nation's birth begun\nGreen and red flag waves beneath the sun"
+    },
+    {
+      "theme": "heroes",
+      "text": "Freedom fighters bold and brave\nTheir precious lives they freely gave\nFrom tyranny they came to save\nOur motherland, their spirits never gave"
+    },
+    {
+      "theme": "future",
+      "text": "Forward march with heads held high\nCarry the torch, reach for the sky\nBuild the nation, never say die\nHonor those heroes who fought and cry"
+    },
+    {
+      "theme": "independence",
+      "text": "Independence hard-earned and true\nRed sun rises in morning dew\nGreen fields where martyrs once grew\nBangladesh forever strong and new"
+    },
+    {
+      "theme": "courage",
+      "text": "With courage in their hearts they stood\nFor justice, freedom, and what's good\nThrough darkest night they understood\nVictory would come as they knew it would"
+    },
+    {
+      "theme": "unity",
+      "text": "Together we stand, united as one\nThe battle of freedom has been won\nFrom many voices, a single song sung\nBangladesh's glory has just begun"
+    }
+  ],
+  "slogans": [
+    "জয় বাংলা - Victory to Bengal!",
+    "তোমার আমার ঠিকানা, পদ্মা মেঘনা যমুনা",
+    "বীর বাঙালি অস্ত্র ধরো, বাংলাদেশ স্বাধীন করো",
+    "Freedom is our birthright",
+    "Remember the martyrs, honor their sacrifice",
+    "One nation, one dream, eternal freedom"
+  ]
+}

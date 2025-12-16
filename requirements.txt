@@ -1,0 +1,22 @@
+# Core ML/NLP dependencies
+transformers>=4.35.0
+torch>=2.0.0
+tokenizers>=0.15.0
+
+# Text processing
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# Web interface
+flask>=3.0.0
+flask-cors>=4.0.0
+gunicorn>=21.2.0
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# Bengali text support
+indic-nlp-library>=0.92
+bnlp-toolkit>=3.5.0

@@ -113,14 +113,17 @@ def health():
 
 
 if __name__ == '__main__':
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    
     print("\n" + "="*60)
     print("  BIJOY DIBOSH POETRY GENERATOR - Web Interface")
     print("="*60)
-    print(f"\n  Starting server at http://{config.API_CONFIG['host']}:{config.API_CONFIG['port']}")
+    print(f"\n  Starting server at http://0.0.0.0:{port}")
     print("  Press Ctrl+C to stop\n")
     
     app.run(
-        host=config.API_CONFIG['host'],
-        port=config.API_CONFIG['port'],
-        debug=config.API_CONFIG['debug']
+        host='0.0.0.0',
+        port=port,
+        debug=False
     )

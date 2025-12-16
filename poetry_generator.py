@@ -1,20 +1,28 @@
 """
 Bijoy Dibosh Poetry Generator - Core Module
 Uses transformer models to generate patriotic poems and slogans
+Falls back to template-based generation in low-memory environments
 """
 
 import json
 import random
 import logging
 from typing import List, Optional, Dict
-import torch
-from transformers import (
-    AutoTokenizer, 
-    AutoModelForCausalLM,
-    AutoModelForSeq2SeqLM,
-    pipeline
-)
 import config
+
+# Try to import ML libraries (optional for template-based generation)
+try:
+    import torch
+    from transformers import (
+        AutoTokenizer, 
+        AutoModelForCausalLM,
+        AutoModelForSeq2SeqLM,
+        pipeline
+    )
+    ML_AVAILABLE = True
+except ImportError:
+    ML_AVAILABLE = False
+    torch = None
 
 # Setup logging
 logging.basicConfig(level=config.LOG_LEVEL, format=config.LOG_FORMAT)
@@ -42,10 +50,15 @@ class BijoyPoetryGenerator:
         self.themes_data = self._load_themes_data()
         
         logger.info(f"Initializing Bijoy Poetry Generator for {language}")
-        logger.info(f"Using device: {self.device}")
+        if ML_AVAILABLE:
+            logger.info(f"Using device: {self.device}")
+        else:
+            logger.info("ML libraries not available - using template-based generation only")
         
     def _get_device(self, use_gpu: Optional[bool]) -> str:
         """Determine which device to use for inference"""
+        if not ML_AVAILABLE or torch is None:
+            return "cpu"
         if use_gpu is None:
             use_gpu = torch.cuda.is_available()
         return "cuda" if use_gpu else "cpu"
@@ -70,6 +83,14 @@ class BijoyPoetryGenerator:
     
     def _load_model(self):
         """Load the appropriate model for the selected language"""
+        # Skip model loading in low-memory environments (Render free tier)
+        import os
+        if os.environ.get('RENDER') or os.environ.get('SKIP_MODEL_LOADING'):
+            logger.info("Skipping model loading (using template-based generation)")
+            self.model = None
+            self.tokenizer = None
+            return
+        
         if self.model is not None:
             return  # Already loaded
         

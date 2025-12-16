@@ -1,18 +1,8 @@
-# Web interface (essential)
+# Web interface (essential for deployment)
 flask>=3.0.0
 flask-cors>=4.0.0
 gunicorn>=21.2.0
 
-# Core ML/NLP dependencies
-transformers>=4.35.0
-torch>=2.0.0
-tokenizers>=0.15.0
-
-# Text processing
-sentencepiece>=0.1.99
-protobuf>=3.20.0
-
-# Utilities
-numpy>=1.24.0
-pandas>=2.0.0
-tqdm>=4.65.0
+# Minimal dependencies for template-based generation
+# Note: Heavy ML models (torch, transformers) are optional
+# They will be skipped on low-memory environments like Render free tier
